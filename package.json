@@ -7,16 +7,24 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "jpegxr",
+    "jpeg-xr",
+    "jpeg",
+    "jpg",
+    "wdp",
     "image",
     "compression",
     "optimization",
-    "jpeg",
-    "jpegxr",
-    "jpeg-xr"
+    "perfomance"
   ],
   "author": "msemenistyi",
   "license": "MIT",
   "dependencies": {
     "node-imagemagick": "~0.1.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-mocha-test": "~0.8.1"
   }
 }
